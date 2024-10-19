@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { type } from "server/reply";
+
 
 const userSchema = new mongoose.Schema({
   clerkId: { type: String, required: true, unique: true },
